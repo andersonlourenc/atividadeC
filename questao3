@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+    
+    float num;
+    printf("Insira um número real: ");
+    scanf("%f", &num);
+    printf("O número com apenas uma casa decimal: ");
+    printf("%.1f", num);
+    
+    return 0;
+}
